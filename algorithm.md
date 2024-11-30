@@ -10,7 +10,7 @@
    1. prompt user to enter file name
    2. Verify if the file exists 
    3. Return valid file name or prompt for re-entry
-- Name: Morse_code()
+- Name: morse_key()
 - Purpose
 - Parameters
 - return:
@@ -18,7 +18,7 @@
    1. Open and read "morsecode.txt"
    2. Use a dictionary to store Morse code to English letter mappings
    3. Return the dictionary
-- Name: Morse_code_to_english()
+- Name: morse_code_to_english()
 - Purpose
 - Parameters
 - return:
