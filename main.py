@@ -28,11 +28,11 @@ def morse_key(file_name):
     return key_dictionary
     
 def morse_code_translation():
-    
+    pass
 
 def main():
     
-    morse_dictionary = morse_key(morsecode.txt)
+    morse_dictionary = morse_key('morsecode.txt')
     
     translate_file = input('Enter the file name you want to translate: ')
     exist = check_file(translate_file)
